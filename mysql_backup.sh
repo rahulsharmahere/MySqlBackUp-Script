@@ -106,13 +106,13 @@ hr
 printf "All backed up!, Find Them In $BACKUP_DIR\n\n"
 
 
-sleep 1
+sleep 2
 printf "Now Lets Backup Directories"
 
 sleep 5
 
 tar -zcvf bck/backup.tar.gz .
 
-sleep 1
+sleep 2
 
 printf "All Done, Check $BACKUP_DIR\n\n"
